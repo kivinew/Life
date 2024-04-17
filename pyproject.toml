@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "LIFE"
+version = "0.1.0"
+description = "Симулятор клеточного автомата"
+authors = ["KiViNeW <kivinew@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
